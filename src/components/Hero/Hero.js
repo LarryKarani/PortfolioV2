@@ -13,12 +13,16 @@ const Hero = (props) => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+          I am a frontend software engineer with a passion for building
+          intuitive and responsive user interfaces. With over 5 years of
+          experience in the industry, I have a strong foundation in HTML, CSS,
+          and JavaScript, and have been using React, TypeScript, and Next.js to
+          build scalable and maintainable web applications.
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Button onClick={props.handleClick}>Get In Touch</Button>
       </LeftSection>
     </Section>
   </>
-);
+)
 
 export default Hero;

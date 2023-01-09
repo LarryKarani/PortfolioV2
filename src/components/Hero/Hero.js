@@ -9,8 +9,8 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Welcome To <br />
-          My Personal Portfolio
+          Larry Karani <br />
+          Software Engineer
         </SectionTitle>
         <SectionText>
           I am a frontend software engineer with a passion for building
@@ -19,7 +19,11 @@ const Hero = (props) => (
           and JavaScript, and have been using React, TypeScript, and Next.js to
           build scalable and maintainable web applications.
         </SectionText>
-        <Button onClick={props.handleClick}>Get In Touch</Button>
+        <Button
+          onClick={() => (window.location = 'mailto:karanilarry@gmail.com')}
+        >
+          Get In Touch
+        </Button>
       </LeftSection>
     </Section>
   </>
